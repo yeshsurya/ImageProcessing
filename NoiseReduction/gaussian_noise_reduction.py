@@ -8,7 +8,7 @@ def gaussian_noise_reduction(image, kernel_size):
 
 
 # Load the image
-image = cv2.imread('image.jpg')
+image = cv2.imread('paris.jpg')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

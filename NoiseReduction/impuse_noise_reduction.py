@@ -19,7 +19,7 @@ def impulse_noise_reduction(image, kernel_size, threshold):
 
 
 # Load the image
-image = cv2.imread('image.jpg')
+image = cv2.imread('paris.jpg')
 
 # Apply impulse noise reduction
 filtered_image = impulse_noise_reduction(image, kernel_size=3, threshold=30)

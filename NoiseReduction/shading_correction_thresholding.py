@@ -28,7 +28,7 @@ def shading_correction_thresholding(image, block_size, constant, kernel_size, th
 
 
 # Load the image
-image = cv2.imread('image.jpg')
+image = cv2.imread('paris.jpg')
 
 # Apply shading correction, thresholding, and impulse noise suppression
 processed_image = shading_correction_thresholding(image, block_size=11, constant=2, kernel_size=3, threshold=30)
